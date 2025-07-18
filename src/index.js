@@ -1,4 +1,4 @@
 import "./styles.css";
-import { greeting } from "./greeting.js";
+import { displayMenu } from "./dropdown.js";
 
-console.log(greeting);
+export { displayMenu };
