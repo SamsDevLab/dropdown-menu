@@ -1,12 +1,14 @@
-body {
-  background-color: cornflowerblue;
-  display: flex;
-  justify-content: center;
-  margin-top: 15rem;
-  height: 100vh;
+#main-container {
+  position: relative;
+  width: 8rem;
 }
 
-.dropdown-btn {
+button:hover {
+  background-color: #90d5ff;
+  border-radius: 0.2rem;
+}
+
+.dropdown-button {
   height: 48px;
   width: 48px;
   display: flex;
@@ -14,11 +16,31 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
   border: 1px solid #000000;
   background-color: #ffffff;
 }
 
-.dropdown-btn:hover {
-  background-color: aqua;
+.menu-button-container {
+  display: none;
+}
+
+.menu-button-container:open {
+  position: absolute;
+  top: 0px;
+  border: 1px solid black;
+
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  align-items: start;
+  background-color: #ffffff;
+  gap: 0.5rem;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+.menu-button {
+  background: none;
+  border: none;
 }
