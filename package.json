@@ -1,14 +1,10 @@
 {
-  "name": "@samsdevlab/dropdown-menu",
-  "version": "1.0.0",
-  "author": "Sam's Dev Lab (https://github.com/samsdevlab)",
-  "main": "src/index.js",
-  "git repository": "https://github.com/SamsDevLab/dropdown-menu",
   "scripts": {
     "start": "webpack serve --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
   },
   "devDependencies": {
+    "@samsdevlab/toggle-visibility": "^1.0.0",
     "css-loader": "^7.1.2",
     "css-minimizer-webpack-plugin": "^7.0.2",
     "globals": "^16.3.0",
